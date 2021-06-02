@@ -34,6 +34,7 @@ int main() {
             // If the operator is other than +, -, * or /, error message is shown
             cout << "Error! operator is not correct";
             break;
+            
     }
 
     return 0;
