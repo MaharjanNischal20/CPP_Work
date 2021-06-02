@@ -21,10 +21,10 @@ int main()
 
 }
 
-void area_of_triangle(float a,float b,float c)
+void area_of_triangle(float x,float y,float z)
 {
     float area, s;
-    s=(a+b+c)/2;
-    area=sqrt(s*(s-a)*(s-b)*(s-c));
+    s=(x+y+z)/2;
+    area=sqrt(s*(s-x)*(s-y)*(s-z));
     cout<<"area of triangle = "<<area;
 }
