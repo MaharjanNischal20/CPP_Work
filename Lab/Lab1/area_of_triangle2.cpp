@@ -8,6 +8,6 @@ int main() {
     cin>>height>>base;
     ans= (0.5)*height*base;    //area of triangle formula
 
-    cout<<"Area of triangle is : "<<ans;
+    cout<<"Area of triangle = : "<<ans;
 	return 0;
 }
