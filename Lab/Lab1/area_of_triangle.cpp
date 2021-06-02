@@ -10,6 +10,6 @@ int main()
 	s=(a+b+c)/2;
 	Area=sqrt(s*(s-a)*(s-b)*(s-c));
 	cout<<"Area of triangle is : "<<Area;
-	
+	cout<<endl;
 	return 0;
 }
