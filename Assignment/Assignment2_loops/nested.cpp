@@ -15,5 +15,6 @@ int main()
     else
         cout << n << " is odd.";
 
+
     return 0;
 }
