@@ -4,6 +4,7 @@
 using namespace std;
 int main()
 {
+    
     char string1[20],string2[40],string3[20];
 
     cout<<"enter a string"<<endl;
@@ -14,5 +15,5 @@ int main()
      
       
      cout<<"string entered is \t"<<strcat(string1,string2);
-     
+
 }
