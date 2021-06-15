@@ -17,7 +17,7 @@ class Interest
             SI=(per*tim*r)/100;
         }     
 
-         void calulation(double per , double tim ,float rate=15.0f)
+         void calulation(double per , double tim ,float rate=0.15)
         {
              
             
