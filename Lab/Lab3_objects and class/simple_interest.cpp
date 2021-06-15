@@ -10,13 +10,6 @@ class Interest
 
     public:
         
-       void calulation(double per , double tim , double r)
-        {
-             
-            
-            SI=(per*tim*r)/100;
-        }     
-
          void calulation(double per , double tim ,float rate=0.15)
         {
              
