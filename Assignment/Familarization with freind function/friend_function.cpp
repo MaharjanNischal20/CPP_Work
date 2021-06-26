@@ -1,3 +1,7 @@
+/*WAP to create class Sample with 2 float data members and member functions 
+void getData() to input the values and one friend function float mean(Sample)
+to claculate and return mean value  */
+
 #include <iostream>
 using namespace std;
 
