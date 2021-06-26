@@ -32,6 +32,5 @@ int main()
 {
     sample s;
     s.getdata();
-    cout<<"The mean = "<<mean(s)<<endl;  /*mean(sample s) return type bhayeko bhara
-                                            mean(s) nagareko ho*/
+    cout<<"The mean = "<<mean(s)<<endl;  
 }   
