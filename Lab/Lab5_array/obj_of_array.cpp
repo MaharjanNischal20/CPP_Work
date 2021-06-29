@@ -28,6 +28,8 @@ int main()
     for(i=0;i<4;i++)
     {
         cout<<"classes["<<i<<"]: "<<classes[i].getx()<<endl;
+        
     }
+
 
 }
