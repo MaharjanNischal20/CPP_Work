@@ -23,7 +23,7 @@ class distances
     }
 friend distances operator + (distances x,distances y);
 };
-distances operator + (distances x,distances y)
+distances operator + (distances x,distances y)     //class bahira function cr8 gareko bhara x and y argument lekheko ho.
 {
           distances temp;
         cout<<"Enter feet and inch: ";
