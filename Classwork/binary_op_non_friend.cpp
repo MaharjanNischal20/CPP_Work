@@ -31,14 +31,15 @@ class distances
         return temp;
 
     }
-   void display()
-    {
-        cout<<"The feet is : "<<feet<<endl;
-        cout<<"The inch is : "<<inch<<endl;
-        
+   void display();
+ };
+ void distances::display()
+ {
+        {
+        cout<<"Total feet = "<<this->feet<<endl;
+        cout<<"Total inch = "<<this->inch<<endl;
     }
-   
-};
+ }
 int main()
 {
     distances d1(10,20),d2(20,30),d3;
