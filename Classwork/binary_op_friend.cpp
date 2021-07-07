@@ -16,11 +16,8 @@ class distances
         this->feet=feet;
         this->inch=inch;
     }
-    void display() 
-    {
-        cout<<"Total feet = "<<this->feet<<endl;
-        cout<<"Total inch = "<<this->inch<<endl;
-    }
+    void display(); 
+ 
 friend distances operator + (distances x,distances y);
 };
 distances operator + (distances x,distances y)     //class bahira function cr8 gareko bhara x and y argument lekheko ho.
@@ -36,6 +33,11 @@ distances operator + (distances x,distances y)     //class bahira function cr8 g
 
     
 }
+void distances::display()
+       {
+        cout<<"Total feet = "<<this->feet<<endl;
+        cout<<"Total inch = "<<this->inch<<endl;
+        }
 
 int main()
 {
